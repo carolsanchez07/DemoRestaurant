@@ -121,8 +121,13 @@
               "devServerTarget": "Demo-Restaurant:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Demo-Restaurant"
 }
