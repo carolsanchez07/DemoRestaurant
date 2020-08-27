@@ -1,0 +1,26 @@
+<section class="menu" id="menu">
+    <div class="container">
+        <h3 class="title" id="platillos">Menú</h3>
+        <div class="container-border">
+            <div class="container-border2" >
+                <article>
+                    <p class="category">Comida</p>
+                    <div class="platillo" *ngFor="let food of menu[0].food">
+                        <p class="name">{{food.name}}</p>
+                        <p class="price">${{food.price}}</p>
+                        <p class="description">{{food.description}}</p>
+                    </div>
+                </article>
+                <article>
+                    <p class="category">Bebida</p>
+                    <div class="platillo" *ngFor="let drink of menu[0].drink">
+                        <p class="name">{{drink.name}}</p>
+                        <p class="price">${{drink.price}}</p>
+                        <p class="description">{{drink.description}}</p>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
