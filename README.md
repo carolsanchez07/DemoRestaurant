@@ -1,3 +1,3 @@
 # website-restaurant
 
-Website realizado con HTML / CSS / JQUERY 
+Website demo realizado en Angular 
